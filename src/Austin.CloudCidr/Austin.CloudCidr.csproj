@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <EmbeddedResource Include="../../data/aws.json" />
+    <EmbeddedResource Include="../../data/azure.json" />
+    <EmbeddedResource Include="../../data/google-cloud.json" />
+  </ItemGroup>
+
 </Project>
